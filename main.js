@@ -18,6 +18,8 @@ document.getElementById("movieInfo").addEventListener('click', function () {
                     if (Number.isInteger(parseInt(document.getElementById("movieYear").value)) === true) {
                         alert("food2");
                     }
+                } else {
+                    alert("Data incorrect. Movie could not be saved.");
                 }
             }
         } else {
