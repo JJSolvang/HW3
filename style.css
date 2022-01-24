@@ -1,21 +1,41 @@
-
 .header  {
   background-color:darkred;
-  height: 8vh;
+  height: 15vh;
   padding: 1rem;
-  font-size: 2rem;
   justify-content: center;
+  padding-left: 2rem;
+  /* display: flex; */
+}
+
+.header h1{
+  background-color: rgba(255, 255, 255, .8);
+  color:darkred;
+  font-weight: bold;  
+  font-size: 3rem; 
+  display: flex;
 }
 
 .container-outer {
-  /* border:.5rem solid black; */
   display: flex;
-  justify-content: center;
+  justify-content: left;
 }
 
 .container-inner {
-  width: 90vw;
-  /* border:.5rem double gold;  */
+  width: 100%;
+  /* border:5rem darkred; */
   background-color: lightgray;
-  padding:2rem;
+  display: flex;
+  padding-left: 2rem;
+}
+
+@media (max-width: 800px) {
+  body {
+    flex:100%;
+  }
+}
+
+@media (min-width:100px) {
+  body {
+    flex:20%;
+  }
 }
