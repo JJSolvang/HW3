@@ -51,6 +51,10 @@ document.getElementById("movieInfo").addEventListener('click', function () {
         console.log("Title: Failed");
         alert("Data incorrect. Movie could not be saved (Missing Title).");
     }
+    
+    document.getElementById("movieTitle").value = "";
+    document.getElementById("movieRating").value = "";
+    document.getElementById("movieYear").value = "";
 });
 
 document.getElementById("movieShow").addEventListener('click', function () {
