@@ -17,7 +17,7 @@ document.getElementById("movieInfo").addEventListener('click', function () {
                         
                         console.log("Year: Passed");
 
-                        if (movies.length < 9) {
+                        if (movies.length < 10) {
 
                             movies[movies.length] = { name : document.getElementById("movieTitle").value, rating : document.getElementById("movieRating").value, year : document.getElementById("movieYear").value };
 

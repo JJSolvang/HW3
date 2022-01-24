@@ -27,8 +27,11 @@
 }
 
 #displayMovies {
+  width: 100%;
+  background-color: lightgray;
   display: flex;
-  display: row;
+  padding-left: 2rem;
+  padding-bottom: 2rem;
 }
 
 @media (max-width: 800px) {
