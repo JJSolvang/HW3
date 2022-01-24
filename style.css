@@ -23,15 +23,9 @@
   width: 100%;
   background-color: lightgray;
   display: flex;
+  padding-right: 1rem;
   padding-left: 2rem;
-}
-
-#displayMovies {
-  width: 100%;
-  background-color: lightgray;
-  display: flex;
-  padding-left: 2rem;
-  padding-bottom: 2rem;
+  flex-direction: column;
 }
 
 @media (max-width: 800px) {
