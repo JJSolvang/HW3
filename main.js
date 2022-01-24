@@ -55,6 +55,8 @@ document.getElementById("movieInfo").addEventListener('click', function () {
 
 document.getElementById("movieShow").addEventListener('click', function () {
 
+    document.getElementById("displayMovies").innerHTML = "";
+
     movies.sort((a, b) => {
         return a.rating - b.rating;
     });

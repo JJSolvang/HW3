@@ -4,7 +4,6 @@
   padding: 1rem;
   justify-content: center;
   padding-left: 2rem;
-  /* display: flex; */
 }
 
 .header h1{
@@ -22,10 +21,14 @@
 
 .container-inner {
   width: 100%;
-  /* border:5rem darkred; */
   background-color: lightgray;
   display: flex;
   padding-left: 2rem;
+}
+
+#displayMovies {
+  display: flex;
+  display: row;
 }
 
 @media (max-width: 800px) {
